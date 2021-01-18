@@ -10,9 +10,6 @@ public class MouseMixin {
 	//Doubles and longs are counted twice, index 5 is vertical in onMouseScroll.
 	@ModifyVariable(method = "onMouseScroll", at = @At("HEAD"), index = 5)
 	private double scrollFix(double vertical1, long window, double horizontal, double vertical2) {
-		if (vertical1 == 0) {
-			return horizontal;
-		}
-		return vertical1;
+		return vertical1 == 0 ? horizontal : vertical1;
 	}
 }
