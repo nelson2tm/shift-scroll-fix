@@ -15,7 +15,7 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/shift-scroll-fix/icon.png",
 
   "environment": "client",
   "mixins": [
