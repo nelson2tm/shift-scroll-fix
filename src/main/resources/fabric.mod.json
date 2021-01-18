@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "shiftscrollfix",
+  "version": "${version}",
+
+  "name": "Shift-Scroll Fix",
+  "description": "Fixes inability to shift-scroll on macOS.",
+  "authors": [
+    "nelson2tm"
+  ],
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/shift-scroll-fix",
+    "issues": "https://github.com/nelson2tm/shift-scroll-fix/issues",
+    "sources": "https://github.com/nelson2tm/shift-scroll-fix"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "client",
+  "mixins": [
+    "shiftscrollfix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
