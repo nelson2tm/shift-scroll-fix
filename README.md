@@ -1,5 +1,5 @@
 # Shift-Scroll Fix for macOS
-[Download available on CurseForge](https://www.curseforge.com/minecraft/mc-mods/shift-scroll-fix)
+Downloads are available on [CurseForge](https://www.curseforge.com/minecraft/mc-mods/shift-scroll-fix) and [Modrinth](https://modrinth.com/mod/shift-scroll-fix).
 
 Shift-Scroll Fix is a very simple mod which fixes some annoying bugs related to scrolling while holding shift:
 * **Minecraft 1.20.2 and newer**: fixes bug causing scroll direction to reverse while holding shift on macOS. ([MC-266429](https://bugs.mojang.com/browse/MC-266429))
